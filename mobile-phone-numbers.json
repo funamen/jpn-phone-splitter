@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "090",
+    "place": "音声伝送携帯電話番号",
+    "cityNumber": 90,
+    "nextLength": "BCDE"
+  },
+  {
+    "ID": "080",
+    "place": "音声伝送携帯電話番号",
+    "cityNumber": 80,
+    "nextLength": "BCDE"
+  },
+  {
+    "ID": "070",
+    "place": "音声伝送携帯電話番号",
+    "cityNumber": 70,
+    "nextLength": "BCDE"
+  },
+  {
+    "ID": "050",
+    "place": "特定IP電話番号",
+    "cityNumber": 50,
+    "nextLength": "BCDE"
+  }
+]

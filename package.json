@@ -1,0 +1,30 @@
+{
+  "name": "jpn-phone-splitter",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "index.js",
+  "author": "Takashi Funama",
+  "license": "MIT",
+  "scripts": {
+    "convert": "ts-node ./src/convert.ts",
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funamen/jpn-phone-splitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/funamen/jpn-phone-splitter/issues"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
+    "jest": "^27.5.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
