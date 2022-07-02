@@ -1,8 +1,7 @@
 {
   "name": "jpn-phone-splitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {},
-  "main": "index.js",
   "author": "Takashi Funama",
   "license": "MIT",
   "scripts": {
@@ -11,6 +10,7 @@
     "prepare": "yarn run build",
     "test": "jest"
   },
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
