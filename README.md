@@ -21,11 +21,6 @@ const osakaCityPhoneNumber = "0662088181";
 
 //jpnPhoneNumberMeta
 const jpnPhoneNumberMeta = jpnPhoneNumberMeta(osakaCityPhoneNumber);
-// "+81-6-6208-8181"
-
-//jpnPhoneNumberSplitter
-const jpnPhoneNumberSplitter = jpnPhoneNumberSplitter(osakaCityPhoneNumber);
-
 // {
 //        ID: '363',
 //        place: [
@@ -37,4 +32,9 @@ const jpnPhoneNumberSplitter = jpnPhoneNumberSplitter(osakaCityPhoneNumber);
 //         nextLength: 'BCDE',
 //         parse: [ '+81', '6', '6208', '8181' ]
 //       }
+
+//jpnPhoneNumberSplitter
+const jpnPhoneNumberSplitter = jpnPhoneNumberSplitter(osakaCityPhoneNumber);
+// "+81-6-6208-8181"
+
 ```
